@@ -1,0 +1,33 @@
+{
+    "name": "Full CanSat med alle sensorer",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "BME280": "github:oysa88/bme280#5395e7a1e965ff21bfb71766ab2373d9dd59c08d",
+        "GPS NEO-6M": "github:oysa88/gps-neo-6m#ac0f1226ac3a5ef73d94cd0159f1fd5065e20ce1",
+        "SGP30": "github:oysa88/sgp30#8665e081c6c36c83837998d9afcea22d411fd09d",
+        "GY91": "github:oysa88/gy91#4db08a021c5c85cbfb673bb9266570f0f50a33de",
+        "Datalogging": "github:oysa88/datalogging#ca2ef20054c687508615b6b192b28ef487a0e8ea",
+        "OLED-skjerm": "github:oysa88/oled-skjerm#a8bd4ea4745359e388b3b2b790737e2020bad236",
+        "E32 Radio": "github:oysa88/e32-radio#a374a1e8d766af03abe7e0deb45c8f7c99f99041"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.21",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
